@@ -1,0 +1,50 @@
+<hmtl>
+    <head>
+        <title>Face Recognizer</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>
+            Face Recognizer<span>
+            <img id="img1" src="face.png">
+
+</span>        </h1>
+        <br>
+        <br>
+        <h3>Things trained to recognize </h3>
+        <hr>
+    <p><kbd id="1">Mom</kbd>, <kbd id="2">dad</kbd>, <kbd id="3">Me</kbd></p>
+        <hr>
+        <br>
+        <hr>
+        <div id="camera" style="border: dashed black;">
+        
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="output">
+
+        </div>
+        <br>
+        <hr>
+        <label>Person: <span>
+            <p id="item_answer"></p>
+        </span></label>
+        <br>
+        <label>Accuracy: <span>
+            <p id="result_accuracy_output"></p>
+        </span></label>
+        </center>
+    </body>
+</hmtl>

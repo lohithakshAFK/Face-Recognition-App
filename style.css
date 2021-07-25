@@ -1,0 +1,17 @@
+body{
+    background-color:antiquewhite;
+}
+
+#img1{
+    height: 30px;
+    width:30px;
+}
+
+#1, #2, #3{
+    padding: 10px;
+}
+
+#camera{
+    height:350px;
+    width:350px;
+}
